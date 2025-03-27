@@ -1,0 +1,19 @@
+Settings = {
+    ["SlotWaitTime"] = 0.15; -- Time it takes between the last two chats | 0.15 works w/o a vpn (differs per person)
+    ["KamiWaitTime"] = 0.15; -- Time it takes to talk to kami after slot switch | 0.15 works w/o a vpn (differs per person)
+    ["HideName"] = "EMBRxZaki"; -- "none/None" to disable
+    ["Debug"] = false; -- prints shit out (only used by aloof)
+    ["StopAfter"] = 0; -- 0 to disable | stops the script after the amount of points you put
+}
+Accounts = {
+    ["ZakiDBz"] = { -- PUT YOUR MAIN ACCOUNT'S FULL USERNAME IN HERE.
+        ["Main"] = 1; -- MAIN SLOT
+        ["Namek"] = 2 -- NAMEKIAN SLOT
+    };
+    ["example 2"] = {
+        ["Main"] = 3;
+        ["Namek"] = 2;
+    };
+} -- IF YOU WISH TO ADD MORE ACCOUNTS JUST COPY PASTE, why is aloof typing in all caps
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ProphecySkondo/Aloofs/refs/heads/main/Obsfucated"))()
