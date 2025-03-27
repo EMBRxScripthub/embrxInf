@@ -16,4 +16,4 @@ Accounts = {
     };
 } -- IF YOU WISH TO ADD MORE ACCOUNTS JUST COPY PASTE, why is aloof typing in all caps
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ProphecySkondo/Aloofs/refs/heads/main/Obsfucated"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EMBRxScripthub/embrxInf/refs/heads/main/INF%20zaki
